@@ -113,9 +113,6 @@ fun Start(navController: NavController) {
                     .padding(top = 0.dp, start = 16.dp, bottom = 16.dp, end = 16.dp)
                     .background(Color.Cyan)
             ) {
-                var zmienna1 = "zmienna1_A"
-                var zmienna2 by remember { mutableStateOf("zmienna2_A") }
-                var zmienna3 by rememberSaveable { mutableStateOf("zmienna3_A") }
 
                 Column {
                     Text(
